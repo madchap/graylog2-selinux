@@ -16,3 +16,6 @@ Examples, if the above link is to vanish:
 ```type=AVC msg=audit(1242575005.122:101): avc: denied { unlink } for pid=2508 comm="canberra-gtk-pl" name="c73a516004b572d8c845c74c49b2511d:runtime"
 dev=dm-0 ino=188578 scontext=test_u:staff_r:oddjob_mkhomedir_t:s0 tcontext=system_u:object_r:gnome_home_t:s0 tclass=lnk_file```
 
+Screenshots
+===========
+![AVC example](https://raw.githubusercontent.com/madchap/graylog2-selinux/master/extractor/screenshots/selinux_avc_graylog.png)
